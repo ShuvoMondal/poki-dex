@@ -1,5 +1,5 @@
-import React from 'react';
-import Head from 'next/Head';
+import React from 'react'
+import Head from 'next/Head'
 
 export default function Layout({title, children}) {
     return (
@@ -8,7 +8,7 @@ export default function Layout({title, children}) {
                 <title>{title}</title>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-            <main className="container mx-auto max-w-xl min-h-screen pt-8">
+            <main className="container mx-auto max-w-3xl p-8">
                 {children}
             </main>
         </div>
